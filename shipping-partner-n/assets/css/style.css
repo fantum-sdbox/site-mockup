@@ -1,0 +1,177 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap');
+
+/* font-family: 'Nunito Sans', sans-serif; */
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+/* COMMON CSS */
+.btn {
+  padding: 6px 10px;
+  border: 1px solid #5cc5e3;
+}
+
+/* ./common CSS */
+
+/* ======header CSS====== */
+.navbar {
+  background: #ffff;
+}
+
+.navbar-brand {}
+
+.navbar-brand img {}
+
+.logo {
+  height: 60px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.menu ul li a {
+  margin-right: 50px;
+  font-weight: 600;
+  color: #333 !important;
+}
+
+.menu ul li:last-child a {
+  margin-right: 0 !important;
+}
+
+.menu ul li a:hover {
+  color: #5cc5e3 !important;
+}
+
+
+.nav-btn a {
+  text-decoration: none;
+}
+
+
+.nav-btn .btn:hover {
+  background-color: #5cc5e3;
+  color: #fff;
+}
+
+.nav-btn-login button {
+  background-color: #fff;
+  border: 1px solid #5cc5e3;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+.nav-btn-login button:hover {
+  background-color: #5cc5e3;
+  color: #fff;
+}
+
+header .navbar-expand {
+  padding: none;
+}
+
+.navbar-expand .navbar-nav .nav-item a:not(.btn) {
+  font-weight: 600;
+  color: #333;
+}
+
+.navbar-expand .navbar-nav .nav-item a:not(.btn):hover {
+  color: #5cc5e3 !important;
+
+}
+
+/* ./Header */
+
+/* Faq CSS */
+.card-header .btn {
+  border: none !important;
+}
+
+.accordion>.card>.card-header {
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+/* LOGIN SECTION CSS START */
+.login-section {
+  margin: 50px !important;
+  border: none;
+
+}
+
+.login-left {
+
+  margin: 30px 0;
+}
+
+.login-left img {
+  width: 100%;
+  /* border-radius: 10px;
+  box-shadow: 8px 8px 6px -6px; */
+
+}
+
+.login-right {
+  background-color: #fff;
+  padding: 0px 20px;
+}
+
+.login-right .btn:hover {
+  background-color: #5cc5e3;
+  color: #fff;
+}
+
+.forgot-pass a {
+  color: #5cc5e3;
+}
+
+/* ./LOGIN SECTION CSS */
+
+/* Registration CSS */
+.reg-section .btn:hover {
+  background-color: #5cc5e3;
+  color: #fff;
+
+}
+
+/* ./Registration CSS */
+
+/* dashboard Home vertical menu home */
+.vertical-menu .flex-column {
+  background-color: #fff;
+}
+
+/* ./dashboard Home vertical menu home */
+
+
+
+
+/* FOOTER CSS */
+.home-footer .copyright {
+  margin-top: 0;
+
+}
+
+
+/* ./FOOTER CSS */
+
+.dk-footer {
+  padding: 75px 0 0;
+  position: relative;
+}
+
+
+.copyright {
+  padding: 28px 0;
+  margin-top: 55px;
+  background: #5c7484;
+  color: #fff;
+}
