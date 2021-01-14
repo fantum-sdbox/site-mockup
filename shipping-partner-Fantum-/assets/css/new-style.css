@@ -30,8 +30,8 @@ secondary color- #5cc5e3 */
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
-    background-color: #5cc5e3;
-    border-color: #5cc5e3;
+  background-color: #5cc5e3;
+  border-color: #5cc5e3;
 }
 
 .btn-primary.focus,
@@ -40,9 +40,10 @@ secondary color- #5cc5e3 */
   border-color: #5cc5e3;
   /* box-shadow: none; */
 }
+
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .btn-primary:not(:disabled):not(.disabled):active:focus,
-.show>.btn-primary.dropdown-toggle:focus{
+.show>.btn-primary.dropdown-toggle:focus {
   /* box-shadow: 0 0 0 0.15rem #5c7484; */
   background-color: #5c7484;
   box-shadow: none;
@@ -150,10 +151,11 @@ secondary color- #5cc5e3 */
 }
 
 /* integration css*/
-.integration-body .card-body{
+.integration-body .card-body {
   padding: .5rem;
 
 }
+
 .integration-title {
   margin-top: 10px;
 }
