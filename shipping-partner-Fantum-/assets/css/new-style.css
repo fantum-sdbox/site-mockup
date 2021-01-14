@@ -150,6 +150,10 @@ secondary color- #5cc5e3 */
 }
 
 /* integration css*/
+.integration-body .card-body{
+  padding: .5rem;
+
+}
 .integration-title {
   margin-top: 10px;
 }
@@ -159,6 +163,7 @@ secondary color- #5cc5e3 */
   vertical-align: middle !important;
   color: #5c7484;
 }
+
 
 /* or view */
 .or-view {
