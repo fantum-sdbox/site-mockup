@@ -205,7 +205,20 @@ secondary color- #5cc5e3 */
   cursor: pointer;
 }
 
+/* Documentation CSS */
+.doc{
+  margin: 20px 0;
+}
+.border-doc{
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+}
 
+.doc-img img{
+  border: 1px solid #eee;
+  margin: 15px;
+}
+/* ./Documentation CSS */
 
 
 /* footer css */
