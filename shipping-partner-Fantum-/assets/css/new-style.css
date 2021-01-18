@@ -206,18 +206,20 @@ secondary color- #5cc5e3 */
 }
 
 /* Documentation CSS */
-.doc{
+.doc {
   margin: 20px 0;
 }
-.border-doc{
+
+.border-doc {
   border-bottom: 1px solid #eee;
   margin-bottom: 10px;
 }
 
-.doc-img img{
+.doc-img img {
   border: 1px solid #eee;
   margin: 15px;
 }
+
 /* ./Documentation CSS */
 
 
