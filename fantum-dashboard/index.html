@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8" />
+	<title>Fantum</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Bootstrap Css -->
+	<link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+	<!-- Icons Css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+	<link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+
+	<!-- App Css-->
+	<link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+	<!-- Custom Css -->
+	<link rel="stylesheet" href="assets/css/custom.css">
+	<!-- Media Query -->
+	<link rel="stylesheet" href="assets/css/mediaquery.css">
+	<!-- Slick -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+
+
+
+</head>
+
+<body data-sidebar="dark">
+
+	<!-- Begin page -->
+	<div id="layout-wrapper">
+		<header id="page-topbar">
+			<div class="navbar-header">
+				<div class="d-flex">
+					<!-- LOGO -->
+					<div class="navbar-brand-box">
+						<a href="index.html" class="logo logo-light">
+							<span class="logo-sm">
+								<img src="assets/images/logo/Fantum.png" alt="" height="50">
+							</span>
+							<span class="logo-lg">
+								<img src="assets/images/logo/Fantum-long.png" alt="" height="50">
+							</span>
+						</a>
+					</div>
+
+					<button type="button" class="btn btn-sm px-3 font-size-24 header-item waves-effect" id="vertical-menu-btn">
+						<i class="ri-menu-2-line align-middle"></i>
+					</button>
+				</div>
+				<!-- Right Header -->
+				<div class="d-flex">
+					<div class="dropdown d-inline-block user-dropdown">
+						<button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<img class="rounded-circle header-profile-user" src="assets/images/users/Ellipse 1.png"
+								alt="Header Avatar">
+							<span class="d-none d-xl-inline-block ml-1">Alex Freeman</span>
+							<i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
+						</button>
+						<div class="dropdown-menu dropdown-menu-right">
+							<!-- item-->
+							<a class="dropdown-item" href="#"><i class="ri-user-line align-middle mr-1"></i> Profile
+							</a>
+
+							<a class="dropdown-item d-block" href="#"><i class="ri-settings-2-line align-middle mr-1"></i> Settings
+							</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item text-danger" href="#">
+								<i class="ri-shut-down-line align-middle mr-1 text-danger">
+								</i> Logout
+							</a>
+						</div>
+						<!-- ./profile-item -->
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- ========== Left Sidebar Start ========== -->
+		<div class="vertical-menu">
+
+			<div data-simplebar class="h-100">
+				<!--- Sidemenu -->
+				<div id="sidebar-menu">
+					<!-- Left Menu Start -->
+					<ul class="metismenu list-unstyled" id="side-menu">
+						<li class="menu-title">General</li>
+
+						<li>
+							<a href="index.html" class="waves-effect">
+								<i class="ri-dashboard-fill"></i>
+								<span>Dashboard</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="notification.html" class=" waves-effect">
+								<i class="ri-notification-4-fill"></i>
+								<span class="badge badge-pill badge-success float-right">38</span>
+								<span>Notification</span>
+							</a>
+						</li>
+						<li>
+							<a href="activites.html" class=" waves-effect">
+								<i class="ri-flashlight-fill"></i>
+								<span>Activities</span>
+							</a>
+						</li>
+
+						<li class="menu-title">Boxes
+							<span class="badge badge-pill badge-secondary float-right">2</span>
+						</li>
+
+
+						<li>
+							<a href="javascript: void(0);" class="has-arrow waves-effect">
+								<img src="assets/images/home/box-1.png" class="menu-box" alt="box">
+								<span>My Home Box</span>
+							</a>
+							<ul class="sub-menu" aria-expanded="false">
+								<li><a href="#">Subscription</a></li>
+								<li><a href="#">Sub Detail</a></li>
+							</ul>
+						</li>
+
+						<li>
+							<a href="javascript: void(0);" class="has-arrow waves-effect">
+								<img src="assets/images/home/box-2.png" class="menu-box" alt="box">
+								<span>Tony's Box</span>
+							</a>
+							<ul class="sub-menu" aria-expanded="false">
+								<li><a href="#">Subscription</a></li>
+								<li><a href="#">Sub Detail</a></li>
+							</ul>
+						</li>
+
+						<li class="text-center mt-5 refer">
+							<div class="refer-friend">
+								<a href="#">
+									<img src="assets/images/home/refer-friend.png" class="img-fluid" alt="">
+								</a>
+								<h5>Invite Your Friends</h5>
+								<p class="text-black">Lorem ipsum, dolor sit amet <br> consectetur adipisicing</p>
+							</div>
+							<div class="refer-icon d-none">
+								<a href="faq.html" class=" waves-effect ">
+									<i class="ri-user-shared-fill"></i>
+									<span>Refer Friends</span>
+								</a>
+							</div>
+						</li>
+
+						<li class="menu-style mt-2">
+							<a href="faq.html" class=" waves-effect">
+								<i class="ri-question-answer-fill"></i>
+								<span>FAQ</span>
+							</a>
+						</li>
+
+						<li class="menu-style mt-2">
+							<a href="support.html" class=" waves-effect">
+								<i class="ri-customer-service-2-fill"></i>
+								<span>Technical Support</span>
+							</a>
+						</li>
+
+						<li class="social-menu-list mt-3">
+							<a href="#" class=" vertical-social-icon waves-effect">
+								<i class="ri-layout-grid-fill text-white"></i>
+							</a>
+
+							<ul class=" social-menu d-flex justify-content-center px-4 ">
+								<li>
+									<a href="#" class=" waves-effect">
+										<i class="fab fa-facebook-f text-white"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#" class=" waves-effect">
+										<i class="fab fa-twitter text-white"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#" class=" waves-effect">
+										<i class="fab fa-linkedin-in text-white"></i>
+									</a>
+								</li>
+							</ul>
+							<!-- After Hover Vertical Social Menu -->
+							<div class="vertical-social-menu ">
+								<ul class=" social-menu justify-content-center d-none">
+									<li>
+										<a href="#" class=" waves-effect">
+											<i class="fab fa-facebook-f text-white"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#" class=" waves-effect">
+											<i class="fab fa-twitter text-white"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#" class=" waves-effect">
+											<i class="fab fa-linkedin-in text-white"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- Sidebar -->
+			</div>
+		</div>
+		<!-- Left Sidebar End -->
+
+		<!-- ============================================================== -->
+		<!-- Start right Content here -->
+		<!-- ============================================================== -->
+		<div class="main-content">
+			<div class="page-content">
+				<div class="container-fluid">
+
+					<!-- start page title -->
+					<div class="row">
+						<div class="col-12">
+							<div class="page-title-box d-flex align-items-center justify-content-between">
+								<h4 class="mb-0">Dashboard</h4>
+							</div>
+						</div>
+					</div>
+					<!-- end page title -->
+
+					<!-- Body-box -->
+					<div class="row slider">
+						<div class="col-xl-6">
+							<div class="card card-border">
+								<div class="card-body">
+									<div class="media">
+										<div class="col-md-5 col-4 card-box-img">
+											<img src="assets/images/home/white_medium_SDBox_closed_02.png" alt="fantum-box" class="img-fluid">
+										</div>
+
+										<div class="col-md-7 col-8 align-self-center ">
+											<div class="owner-detail ">
+												<div class="icons-box d-flex justify-content-evenly">
+													<p class="m-0 font-size-13">Owner: <span>Permanent</span></p>
+													<div class="icons ">
+														<i class="fas fa-battery-three-quarters text-success"></i>
+														<i class="fas fa-wifi ml-2"></i>
+													</div>
+												</div>
+
+												<h5 class="text-primary m-0">Home Delivery Box</h5>
+												<p class="font-size-14">Abcd Colony, Pune, Maharashtra,
+													India</p>
+												<p class="mt-4 mb-0 font-size-13">Subscription Valid Till - 12 Mar 2021</p>
+											</div>
+											<div class="card-btn align-items-center d-flex justify-content-between">
+												<button class="btn btn-gradient text-truncate">
+													Remote Accessibility
+												</button>
+												<i class="ri-remote-control-line"></i>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<!-- end row -->
+						</div>
+
+						<div class="col-xl-6">
+							<div class="card card-border">
+								<div class="card-body">
+									<div class="media">
+										<div class="col-md-5 col-4 card-box-img">
+											<img src="assets/images/home/white_medium_SDBox_closed_02.png" alt="fantum-box" class="img-fluid">
+										</div>
+
+										<div class="col-md-7 col-8 align-self-center ">
+											<div class="owner-detail ">
+												<div class="icons-box d-flex justify-content-evenly">
+													<p class="m-0 font-size-13">Owner: <span>Permanent</span></p>
+													<div class="icons ">
+														<i class="fas fa-battery-three-quarters text-success"></i>
+														<i class="fas fa-wifi ml-2"></i>
+													</div>
+												</div>
+
+												<h5 class="text-primary m-0">Home Delivery Box</h5>
+												<p class="font-size-14">Abcd Colony, Pune, Maharashtra,
+													India</p>
+												<p class="mt-4 mb-0 font-size-13">Subscription Valid Till - 12 Mar 2021</p>
+											</div>
+											<div class="card-btn align-items-center d-flex justify-content-between">
+												<button class="btn btn-gradient text-truncate">
+													Remote Accessibility
+												</button>
+												<i class="ri-remote-control-line"></i>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<!-- end row -->
+						</div>
+						<div class="col-xl-6">
+							<div class="card card-border">
+								<div class="card-body">
+									<div class="media">
+										<div class="col-md-5 col-4 card-box-img">
+											<img src="assets/images/home/white_medium_SDBox_closed_02.png" alt="fantum-box" class="img-fluid">
+										</div>
+
+										<div class="col-md-7 col-8 align-self-center ">
+											<div class="owner-detail ">
+												<div class="icons-box d-flex justify-content-evenly">
+													<p class="m-0 font-size-13">Owner: <span>Permanent</span></p>
+													<div class="icons ">
+														<i class="fas fa-battery-three-quarters text-success"></i>
+														<i class="fas fa-wifi ml-2"></i>
+													</div>
+												</div>
+
+												<h5 class="text-primary m-0">Home Delivery Box</h5>
+												<p class="font-size-14">Abcd Colony, Pune, Maharashtra,
+													India</p>
+												<p class="mt-4 mb-0 font-size-13">Subscription Valid Till - 12 Mar 2021</p>
+											</div>
+											<div class="card-btn align-items-center d-flex justify-content-between">
+												<button class="btn btn-gradient text-truncate">
+													Remote Accessibility
+												</button>
+												<i class="ri-remote-control-line"></i>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<!-- end row -->
+						</div>
+						<div class="col-xl-6">
+							<div class="card card-border">
+								<div class="card-body">
+									<div class="media">
+										<div class="col-md-5 col-4 card-box-img">
+											<img src="assets/images/home/white_medium_SDBox_closed_02.png" alt="fantum-box" class="img-fluid">
+										</div>
+
+										<div class="col-md-7 col-8 align-self-center ">
+											<div class="owner-detail ">
+												<div class="icons-box d-flex justify-content-evenly">
+													<p class="m-0 font-size-13">Owner: <span>Permanent</span></p>
+													<div class="icons ">
+														<i class="fas fa-battery-three-quarters text-success"></i>
+														<i class="fas fa-wifi ml-2"></i>
+													</div>
+												</div>
+
+												<h5 class="text-primary m-0">Home Delivery Box</h5>
+												<p class="font-size-14">Abcd Colony, Pune, Maharashtra,
+													India</p>
+												<p class="mt-4 mb-0 font-size-13">Subscription Valid Till - 12 Mar 2021</p>
+											</div>
+											<div class="card-btn align-items-center d-flex justify-content-between">
+												<button class="btn btn-gradient text-truncate">
+													Remote Accessibility
+												</button>
+												<i class="ri-remote-control-line"></i>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<!-- end row -->
+						</div>
+					</div>
+
+
+					<!-- ./Body-box -->
+				</div> <!-- container-fluid -->
+			</div>
+			<!-- End Page-content -->
+
+			<footer class="footer login-footer">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="text-sm-center d-sm-block mt-2">
+								<p>Fantum © 2021 - All Rights Reserved | <span><a href="#">Terms & Policy</a></span> | <span><a
+											href="#">Privacy
+											Policy</a></span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<!-- end main content-->
+
+	</div>
+	<!-- END layout-wrapper -->
+
+
+	<!-- JAVASCRIPT -->
+	<script src="assets/libs/jquery/jquery.min.js"></script>
+	<script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+	<script src="assets/libs/metismenu/metisMenu.min.js"></script>
+	<script src="assets/libs/simplebar/simplebar.min.js"></script>
+	<script src="assets/libs/node-waves/waves.min.js"></script>
+	<script src="assets/js/app.js"></script>
+	<script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>

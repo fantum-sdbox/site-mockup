@@ -1,0 +1,268 @@
+/* Default Style */
+:root {
+  --primary-color: #55C5E3;
+  --secondary-color: #607786;
+  --light-blue: #E0EEF1;
+  --text-secondary: #798B94;
+  --white: #fff;
+  --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  --border-radius: 20px;
+  --login-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+body {
+  font-size: 16px;
+  background: var(--light-blue);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  transition: .3s ease-in-out;
+}
+
+.bttn {
+  width: 150px;
+  height: 35px;
+  border-radius: 50px;
+  font-weight: bold;
+  line-height: initial;
+  text-transform: uppercase;
+  transition: .3s ease-in-out;
+}
+
+.bttn-outline {
+  border: 1px solid var(--primary-color);
+  background-color: var(--white);
+  color: var(--primary-color);
+}
+
+.bttn-outline:hover {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.bttn-primary {
+  background-color: var(--primary-color);
+  border: 1px solid transparent;
+  color: var(--white);
+}
+
+.bttn-primary:hover {
+  background-color: var(--white);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+/* Gradient Button */
+.gradient-blue {
+  background: rgb(85, 197, 227);
+  background: linear-gradient(90deg, rgba(85, 197, 227, 1) 0%, rgba(224, 238, 241, 1) 100%);
+}
+
+.btn-gradient {
+  width: 70%;
+  height: 25px;
+  background: linear-gradient(90deg, rgba(85, 197, 227, 1) 50%, rgba(224, 238, 241, 1) 100%);
+  border: 0px transparent;
+  border-radius: 0;
+  color: var(--white);
+  font-weight: bold !important;
+  text-align: start;
+  padding: 1px 6px;
+  font-size: auto;
+  margin-top: 4px;
+}
+
+.btn.focus,
+.btn:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.card-border {
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+}
+
+/* ==============================================================-->< !--  DashBoard Navbar Css-->< !--==============================================================*/
+body[data-sidebar=dark] .navbar-brand-box {
+  background-color: #fff;
+}
+
+body[data-sidebar=dark] .mm-active {
+  background-color: #fff;
+}
+
+#page-topbar {
+  background-color: var(--secondary-color);
+  color: #fff !important;
+}
+
+.header-item {
+  color: #fff;
+}
+
+.header-item:hover {
+  color: var(--primary-color);
+}
+
+.navbar-brand-box {
+  padding: 0 10px;
+}
+
+.navbar-header .dropdown.show .header-item {
+  background-color: transparent;
+}
+
+/* ===========< !--  Left Sidebar !--==============*/
+
+/* Social Menu */
+.metismenu .social-menu-list .social-menu>li>a,
+.vertical-social-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  padding: 0 !important;
+  background-color: var(--primary-color) !important;
+  margin: 0 5px;
+  text-align: center;
+
+}
+
+.metismenu .social-menu-list .social-menu>li>a>i,
+.vertical-social-icon i {
+  line-height: 2.3 !important;
+}
+
+.metismenu .social-menu-list .social-menu>li>a:hover {
+  background-color: var(--secondary-color) !important;
+}
+
+.metismenu .social-menu-list .vertical-social-icon {
+  display: none !important;
+}
+
+/* Vertical hover menu list */
+
+body[data-sidebar=dark] .menu-title {
+  color: var(--text-secondary);
+}
+
+#sidebar-menu ul li a {
+  color: var(--secondary-color);
+}
+
+body[data-sidebar=dark] .mm-active .active {
+  color: #000000 !important;
+  background-color: var(--light-blue);
+  position: relative;
+}
+
+body[data-sidebar=dark] .mm-active .active::before {
+  position: absolute;
+  content: "";
+  border: 3px solid var(--primary-color);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+body[data-sidebar=dark] .mm-active .active i {
+  color: #000000 !important;
+}
+
+body[data-sidebar=dark] #sidebar-menu ul li a i {
+  color: var(--secondary-color);
+}
+
+body[data-sidebar=dark] #sidebar-menu ul li a:hover {
+  color: #000000 !important;
+}
+
+body[data-sidebar=dark] #sidebar-menu ul li a:hover i {
+  color: #000000;
+
+}
+
+/* Box menu */
+
+.metismenu li .menu-box {
+  display: none;
+}
+
+.metismenu .refer-friend {
+  border: 2px solid var(--primary-color);
+  border-radius: var(--border-radius);
+  margin: 25px 15px;
+  padding: 0 5px;
+}
+
+.metismenu .refer-friend img {
+  width: 60%;
+}
+
+.metismenu .refer-friend p {
+  color: var(--text-secondary);
+  font-size: 12px;
+}
+
+.menu-style a {
+  background-color: var(--light-blue);
+  width: 90% !important;
+  border-radius: 10px;
+  margin: auto;
+  color: #000000 !important;
+}
+
+.menu-style a i {
+  color: #000000 !important;
+}
+
+/* ===========< !-- Index Dashboard Body Box--==============*/
+
+.card-box-img {
+  background-color: var(--light-blue);
+  border-radius: var(--border-radius);
+  align-self: center;
+}
+
+.icons {
+  margin-left: 37%;
+  margin-top: -12%;
+}
+
+.card-btn i {
+  background-color: var(--primary-color);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+}
+
+/* Footer+ Login Footer */
+.login-footer {
+  background-color: var(--secondary-color);
+  color: var(--white);
+  padding: 10px 0;
+}
+
+.login-footer a {
+  color: var(--primary-color);
+}
+
+.login-footer a:hover {
+  color: var(--white);
+}
