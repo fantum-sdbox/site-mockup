@@ -110,7 +110,6 @@
    font-family: 'Font Awesome 5 Free';
  }
 
-
  /* =========Footer Section========= */
  .login-footer {
    background-color: var(--secondary-color);
@@ -124,6 +123,29 @@
 
  .login-footer a:hover {
    color: var(--white);
+ }
+
+ /* =========Sign Up Page========= */
+ .sign-up-sec .login-left img {
+   width: 50%;
+ }
+
+ .sign-up-sec h2 {
+
+   font-size: 24px;
+   font-weight: bold;
+ }
+  .sign-up-form{
+    margin: 0 10%;
+  }
+
+ .sign-up-form .input-box {
+   width: 80%;
+   margin: inherit;
+ }
+
+ .sign-up-form .menu-title {
+   font-size: 14px;
  }
 
  /* =====Media Query====== */

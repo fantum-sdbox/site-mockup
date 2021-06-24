@@ -1,6 +1,7 @@
-@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&amp;display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
 
-@font-face {
+
+/* @font-face {
   font-family: Inter;
   font-style: normal;
   font-weight: 300;
@@ -30,7 +31,7 @@
   font-weight: 700;
   font-display: swap;
   src: url(../fonts/inter-bold.woff2?v=3.13) format("woff2"), url(../fonts/iter-bold.woff?v=3.13) format("woff")
-}
+} */
 
 #page-topbar {
   position: fixed;
@@ -629,6 +630,38 @@ body[data-layout=horizontal] .footer {
   display: none;
 }
 
+/* Vertical Add Box  */
+.vertical-collpsed .vertical-menu #sidebar-menu .add-box>a {
+  display: none;
+}
+
+.vertical-collpsed .vertical-menu #sidebar-menu .add-box .bttn {
+  display: none;
+}
+
+.vertical-collpsed .vertical-menu #sidebar-menu .add-box .add-box-icon {
+  background-color: var(--light-blue);
+  position: relative !important;
+  white-space: nowrap !important;
+  display: block !important;
+  border: 0px transparent;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 0;
+}
+.vertical-collpsed .vertical-menu #sidebar-menu .add-box .add-box-icon:hover{
+  background-color: var(--white);
+  box-shadow: var(--login-box-shadow);
+}
+.vertical-collpsed .vertical-menu #sidebar-menu .add-box .add-box-icon a{
+  padding: 10px;
+  text-align: center;
+}
+.vertical-collpsed .vertical-menu #sidebar-menu .add-box .add-box-icon a i{
+  display: block !important;
+  color: #000;
+}
+
 /* Vertical for refer menu style */
 .vertical-collpsed .vertical-menu #sidebar-menu .refer {
   margin-top: 120px !important;
@@ -655,7 +688,6 @@ body[data-layout=horizontal] .footer {
 
 .vertical-collpsed .vertical-menu #sidebar-menu .menu-style a span {
   display: none !important;
-
 }
 
 .vertical-collpsed .vertical-menu #sidebar-menu .refer-icon a {
@@ -873,6 +905,7 @@ body[data-sidebar=dark].vertical-collpsed {
 
 body[data-sidebar=dark].vertical-collpsed .vertical-menu #sidebar-menu>ul>li:hover>a {
   background: var(--white);
+  box-shadow: var(--login-box-shadow);
   color: #798B94;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;

@@ -14,7 +14,15 @@
   color: var(--primary-color) !important;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
+  font-family: 'Nunito',
+    sans-serif;
   font-size: 16px;
   background: var(--light-blue);
 }
@@ -28,6 +36,8 @@ h6,
 p,
 a {
   transition: .3s ease-in-out;
+  font-family: 'Nunito',
+    sans-serif;
 }
 
 .bttn {
@@ -125,6 +135,7 @@ body[data-sidebar=dark] .mm-active {
 }
 
 /* ===========< !--  Left Sidebar !--==============*/
+
 
 /* Social Menu */
 .metismenu .social-menu-list .social-menu>li>a,
@@ -251,6 +262,11 @@ body[data-sidebar=dark] #sidebar-menu ul li a:hover i {
   text-align: center;
   color: #fff;
 }
+
+/* ===========< !-- Profile Dashboard--==============*/
+
+
+
 
 /* Footer+ Login Footer */
 .login-footer {
