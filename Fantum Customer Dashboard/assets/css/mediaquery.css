@@ -13,6 +13,24 @@
     font-size: 12px;
   }
 
+  .notification-tab ul li {
+    min-width: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 5px;
+
+  }
+
+  .custom-nav .navbar {
+    width: min-content;
+    margin: auto;
+  }
+
+  .custom-nav .nav-pills .nav-item {
+    margin: auto;
+  }
+
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -21,6 +39,11 @@
   .icons {
     margin-left: -13%;
   }
+
+  .form-inline .form-control {
+    margin-top: 5px !important;
+  }
+
 }
 
 
@@ -51,6 +74,11 @@
   .icons {
     margin-left: 57%;
   }
+
+  .card-box-img {
+    width: fit-content;
+  }
+ 
 
 }
 

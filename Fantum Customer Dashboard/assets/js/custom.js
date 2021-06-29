@@ -1,5 +1,3 @@
-
-
 // $(".toggle-password").click(function () {
 
 //   $(this).toggleClass("fa-eye fa-eye-slash");
@@ -21,7 +19,7 @@
 //   password.setAttribute('type', type);
 //     // toggle the eye / eye slash icon
 //     // $(this).toggleClass("fa-eye-slash");
-  
+
 // });
 
 $('.slider').slick({
@@ -31,9 +29,9 @@ $('.slider').slick({
   slidesToShow: 2,
   slidesToScroll: 1,
   responsive: [{
-      breakpoint: 1024,
+      breakpoint: 1025,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 2,
         infinite: true,
         dots: true
@@ -42,7 +40,7 @@ $('.slider').slick({
     {
       breakpoint: 600,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 2
       }
     },
@@ -58,3 +56,19 @@ $('.slider').slick({
     // instead of a settings object
   ]
 });
+
+
+//JavaScript function that enables or disables a submit button depending
+//on whether a checkbox has been ticked or not.
+function terms_changed(termsCheckBox) {
+  //If the checkbox has been checked
+  if (termsCheckBox.checked) {
+    //Set the disabled property to FALSE and enable the button.
+    document.getElementById("submit_button").disabled = false;
+  } else {
+    //Otherwise, disable the submit button.
+    document.getElementById("submit_button").disabled = true;
+  }
+}
+
+
