@@ -231,19 +231,16 @@
           <div class="row">
             <div class="col-12">
               <div class="page-title-box d-flex align-items-center justify-content-between">
-                <h4 class="mb-0">Dashboard</h4>
+                <h4 class="mb-0">Home Box</h4>
               </div>
             </div>
           </div>
           <!-- end page title -->
 
-
-
           <!-- Body-box -->
           <!-- Box info -->
           <div class="row">
             <div class="col-md-12">
-
               <div class="card card-border">
                 <div class="card-body">
                   <div class="row">
@@ -271,11 +268,56 @@
                       </div>
                       <div class="row sub-sec-up">
                         <div class="col-md-12 d-flex justify-content-end box-round">
-                          <button class="round-btn mr-3"><i class="fas fa-info "></i></button>
-                          <button class="round-btn mr-3"><i class="fas fa-dollar-sign"></i></button>
-                          <button class="round-btn"><i class="fas fa-bars"></i></button>
-
+                          <!-- Modal Button -->
+                          <button type="button" data-toggle="modal" data-target="#staticBackdrop"
+                            class="mr-3 box-round-btn spin circle"><i class="fas fa-info "></i></button>
+                          <!-- ./MOdal Button -->
+                          <!-- Subscription -->
+                          <a href="subsription.html"><button class="box-round-btn spin circle mr-3"><i
+                                class="fas fa-dollar-sign"></i></button></a>
+                          <!-- ./Subscription -->
+                          <!-- Dropdown Button -->
+                          <div class="dropdown cus-dropdown">
+                            <button class="round-btn dropdown-toggle" type="button" id="dropdownMenuButton"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
+                                class="fas fa-bars"></i>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <a class="dropdown-item" href="#">Issue IC Cards</a>
+                              <a class="dropdown-item" href="#">Settings</a>
+                              <a class="dropdown-item text-danger" href="#">Delete Box</a>
+                            </div>
+                          </div>
+                          <!-- ./dropdown -->
                         </div>
+                        <!-- Modal BOX-->
+                        <div class="modal fade cus-modal" id="staticBackdrop" data-backdrop="static"
+                          data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                          <div class="modal-dialog  modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">My Box Information</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                <ul class="list-unstyled">
+                                  <li>Adress: <span>Pune, Maharashtra, India</span></li>
+                                  <li>Lock Number: <span>Rixiang_78s0</span></li>
+                                  <li>MAC ID: <span>C3:54:EE:6F:27:89/199778</span></li>
+                                  <li>Debug Mode: <span>Off</span></li>
+
+                                </ul>
+                              </div>
+                              <div class="modal-footer">
+
+                                <button type="button" class="btnOne">Edit Info</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- ./Modal Box -->
                       </div>
                       <div class="row  align-items-end subcrip-sec-box">
                         <div class="col-md-4 col-lg-4">
@@ -284,24 +326,33 @@
                             <button class="btn btn-gradient text-truncate">
                               Remote Accessibility
                             </button>
-
                           </div>
                         </div>
                         <div class="col-md-8 col-lg-8 d-flex justify-content-end">
-                          <button class="bttn btn-text-outline font-size-13 text-truncate mr-3">Send ekey</button>
-                          <button class="bttn btn-text-outline font-size-13 text-truncate mr-3">Send passcode</button>
+                          <!-- DropDown Ekey -->
+                          <div class="dropdown cus-dropdown">
+                            <button class="bttn btn-text-outline font-size-13 text-truncate mr-2 dropdown-toggle"
+                              type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                              aria-expanded="false">Send ekey
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <a class="dropdown-item" href="#">One Time</a>
+                              <a class="dropdown-item" href="#">Timed</a>
+                              <a class="dropdown-item" href="#">Permanent</a>
+                              <a class="dropdown-item" href="#">Recuring</a>
+                            </div>
+                          </div>
+                          <!-- ./Dropdown Ekey -->
+
+                          <button class="bttn btn-text-outline font-size-13 text-truncate mr-2">Send passcode</button>
                           <button class="btnOne font-size-13 text-truncate">Remote Unlock</button>
                         </div>
-
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-
               <!-- end row -->
-
-
             </div>
           </div>
           <!-- ./Box info -->
@@ -368,7 +419,7 @@
                                 <td>2009/09/15</td>
                                 <td>Active</td>
                                 <td>
-                                  <ul class="list-unstyled d-flex table-icon">
+                                  <ul class="list-unstyled d-flex table-icon justify-content-center">
                                     <a href="#">
                                       <li><i class="fas fa-eye"></i></li>
                                     </a>
@@ -392,7 +443,7 @@
                                 <td>2009/09/15</td>
                                 <td>Active</td>
                                 <td>
-                                  <ul class="list-unstyled d-flex table-icon">
+                                  <ul class="list-unstyled d-flex justify-content-center table-icon">
                                     <a href="#">
                                       <li><i class="fas fa-eye"></i></li>
                                     </a>
@@ -416,7 +467,7 @@
                                 <td>2009/09/15</td>
                                 <td>Active</td>
                                 <td>
-                                  <ul class="list-unstyled d-flex table-icon">
+                                  <ul class="list-unstyled d-flex justify-content-center table-icon">
                                     <a href="#">
                                       <li><i class="fas fa-eye"></i></li>
                                     </a>
@@ -440,7 +491,7 @@
                                 <td>2009/09/15</td>
                                 <td>Active</td>
                                 <td>
-                                  <ul class="list-unstyled d-flex table-icon">
+                                  <ul class="list-unstyled d-flex justify-content-center table-icon">
                                     <a href="#">
                                       <li><i class="fas fa-eye"></i></li>
                                     </a>
@@ -464,7 +515,7 @@
                                 <td>2009/09/15</td>
                                 <td>Active</td>
                                 <td>
-                                  <ul class="list-unstyled d-flex table-icon">
+                                  <ul class="list-unstyled d-flex justify-content-center table-icon">
                                     <a href="#"></a>
                                     <li><i class="fas fa-eye"></i></li>
                                     </a>

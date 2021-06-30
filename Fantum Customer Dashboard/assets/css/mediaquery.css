@@ -78,9 +78,19 @@
   .card-box-img {
     width: fit-content;
   }
- 
 
 }
 
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+/* // Extra large devices (large desktops, 1500px and up) */
+@media (min-width: 1500px) {
+  .card-box-img{
+    width: 70%;
+  }
+  .owner-detail{
+    margin-top: 3%;
+  }
+  .sub-sec-up {
+    margin-top: 8%;
+  }
+
+}
